@@ -1,0 +1,94 @@
+.login-bg {
+  background: linear-gradient(45deg, #ff7e5f, #feb47b);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-box {
+  background: white;
+  border-radius: 15px;
+  padding: 40px 50px;
+  width: 380px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.login-box h2 {
+  color: rgb(28, 28, 161);
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+.role-badge {
+  background: #ff7e5f;
+  color: white;
+  padding: 5px 16px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+.login-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+.login-box input {
+  padding: 10px 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.login-box input:focus {
+  border-color: #ff7e5f;
+  box-shadow: 0 0 5px rgba(255, 126, 95, 0.3);
+}
+.login-box button {
+  padding: 11px;
+  border: none;
+  border-radius: 20px;
+  background: rgb(49, 121, 49);
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.login-box button:hover {
+  opacity: 0.85;
+}
+.login-box button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.toggle-text {
+  font-size: 13px;
+  color: #555;
+  margin: 0;
+}
+.toggle-text span {
+  color: #ff7e5f;
+  cursor: pointer;
+  font-weight: bold;
+}
+.error {
+  color: red;
+  font-size: 13px;
+  text-align: center;
+  margin: 0;
+}
+@media (max-width: 500px) {
+  .login-box {
+    width: 88vw;
+    padding: 28px 20px;
+  }
+}
