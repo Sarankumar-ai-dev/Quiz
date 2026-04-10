@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { FaTrash } from "react-icons/fa";
 import { FaPlus } from "react-icons/fa6";
 
-const API = 'http://localhost:8000';
+const API = 'https://quiz-iis0.onrender.com';
 
 const Quizcreatermain = () => {
   const navigate = useNavigate();

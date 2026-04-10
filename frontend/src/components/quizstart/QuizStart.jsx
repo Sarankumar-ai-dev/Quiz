@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './quizstart.css';
 
-const API = 'http://localhost:8000';
+const API = 'https://quiz-iis0.onrender.com';
 
 const QuizStart = () => {
   const navigate = useNavigate();

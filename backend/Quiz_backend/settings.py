@@ -28,8 +28,6 @@ INSTALLED_APPS = [
     'quiz',
 ]
 
-
-# MIDDLEWARE
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
@@ -44,8 +42,6 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'Quiz_backend.urls'
 
-
-# TEMPLATES
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -84,7 +80,6 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 
-# CORS
 CORS_ALLOW_ALL_ORIGINS = True
 
 

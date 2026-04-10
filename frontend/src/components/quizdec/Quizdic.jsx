@@ -27,7 +27,6 @@ const Quizdic = () => {
       return;
     }
     setError('');
-    // Save to sessionStorage for next page
     sessionStorage.setItem('quizMeta', JSON.stringify(formData));
     navigate('/createQuestion');
   };

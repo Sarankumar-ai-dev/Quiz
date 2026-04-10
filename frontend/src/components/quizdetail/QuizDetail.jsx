@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import './quizdetail.css';
-
-const API = 'http://localhost:8000';
+          
+const API = 'https://quiz-iis0.onrender.com';
 
 const QuizDetail = () => {
   const { quizId } = useParams();

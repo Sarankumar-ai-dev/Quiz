@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './loginpage.css';
 
-const API = 'http://localhost:8000';
+const API = 'https://quiz-iis0.onrender.com';
 const LoginPage = ({ role, redirectTo }) => {
   const navigate = useNavigate();
   const [isSignup, setIsSignup] = useState(true);
